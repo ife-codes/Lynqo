@@ -1,8 +1,6 @@
 const express = require("express")
 const router = express.Router()
+const authControllers = require("../controllers/authControllers")
 
-router.get("/login", (req, res) => {
-    res.send("Logged in !!!")
-})
-
+router.get("/login", authControllers.login)
 module.exports = router 
