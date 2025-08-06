@@ -1,7 +1,11 @@
 const login = (req, res) => {
     res.send("Logged in !!!")
 }
+const signup = (req, res) => {
+    res.send("Logged in !!!")
+}
 
 module.exports = {
-    login
+    login,
+    signup
 }
