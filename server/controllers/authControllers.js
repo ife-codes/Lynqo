@@ -1,3 +1,5 @@
+const supabase = require("../config/supabaseConfig")
+
 const login = (req, res) => {
     res.send("Logged in !!!")
 }
